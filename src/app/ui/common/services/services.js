@@ -4,6 +4,10 @@
    * Services Module.
    */
 
-  angular.module('sirya.ui.common.services', [
-  ]);
+  angular.module('sirya.ui.common.services', []);
+
+
 })(window.angular);
+
+
+

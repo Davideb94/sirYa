@@ -6,6 +6,6 @@
   angular.module('sirya.ui', [
       'sirya.ui.common',
       'sirya.ui.app',
-      'sirya.ui.authentication',
+      'sirya.ui.authentication'
   ]);
 })(window.angular);
