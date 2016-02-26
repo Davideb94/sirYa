@@ -8,7 +8,10 @@
         'sirya.ui',
         'sirya.core',
         'ui.materialize'
-    ])
+    ]).run(function( $rootScope, $state, $stateParams ){
+    $rootScope.$state = $state;
+    $rootScope.$stateParams = $stateParams;
+})
     .config(function ($urlRouterProvider, $stateProvider) {
         $urlRouterProvider.otherwise(function($injector, $location) {
             var url = $location.url();
