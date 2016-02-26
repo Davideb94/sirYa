@@ -14,7 +14,7 @@
         self.matchedSelected = null;
         
         self.select = function($index){
-            self.matchedSelected = self.searches.matched[$index];
+            self.matchedSelected = self.searches.matched[ $index ];
         }
         
         console.log( rest.getUserWithId() );

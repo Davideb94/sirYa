@@ -6,7 +6,8 @@
     angular.module('sirya', [
         'ui.router',
         'sirya.ui',
-        'sirya.core'
+        'sirya.core',
+        'ui.materialize'
     ])
     .config(function ($urlRouterProvider, $stateProvider) {
         $urlRouterProvider.otherwise(function($injector, $location) {
