@@ -31,13 +31,12 @@ body{
 }
 
 .imageContainer{
-    height: 200px;
-    width: 200px;
+    width: 100%;
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-clip: content-box;
     border-radius: 50%;
     float: left;
+    padding-top: 100%;
 }

@@ -1,26 +1,23 @@
 <div id="name" class="row">
-    <div class="imageContainer" style="background-image: url({{profile.user.urlImage}});">
-    
+    <div class="col s2">
+        
+        <div class="imageContainer" style="background-image: url({{profile.user.urlImage}});"></div>
+        
     </div>
-    <div class="name thin">
-        <h5>Name Surname</h5>
+    <div class="col s2">
+        <div class="name thin">
+            <h5>{{ profile.user.name }} {{ profile.user.surname }}</h5>
+        </div>
     </div>
 </div>
 <div id="anagraphics" class="row">
-    <!--<div class="col s12">
-        Birthdate: 
-        <span ng-bind="profile.user.birthDate"></span>
-    </div>
-    <div class="col s12">
-        Birthplace: 
-        <span ng-bind="profile.user.birthPlace"></span>
-    </div>-->
+   
     <div class="row">
         <div class="input-field col s6">
             <input disabled type="text" length="10">
             <label for="input_text">
                 <span class="readOnly">
-                    <b>Birthdate</b>
+                    <b>Date of Birth</b>
                     &nbsp;
                     <span class="readOnly" ng-bind="profile.user.birthDate"></span>
                 </span>
@@ -32,7 +29,7 @@
             <input disabled type="text" length="10">
             <label for="input_text">
                 <span class="readOnly">
-                    <b>Birthplace</b>
+                    <b>Place of Birth</b>
                     &nbsp;
                     <span ng-bind="profile.user.birthPlace"></span>
                 </span>
