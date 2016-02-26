@@ -69,7 +69,8 @@
 											end: "1/11/2014"
 										}
 									}
-								]
+								],
+								urlImage: "http://www.moroccoworldnews.com/wp-content/themes/goodnews45/framework/scripts/timthumb.php?src=http://www.moroccoworldnews.com/wp-content/uploads/2014/01/Mona-liza.jpg&h=400&w=600&zc=1"
 							},
 							matches:[ 
 								{	
@@ -102,7 +103,7 @@
 										}
 										
 									],
-									urlImage: "http://static01.mediaite.com/med/wp-content/uploads/2011/05/Picture-39.png"
+									urlImage: "http://www.moroccoworldnews.com/wp-content/themes/goodnews45/framework/scripts/timthumb.php?src=http://www.moroccoworldnews.com/wp-content/uploads/2014/01/Mona-liza.jpg&h=400&w=600&zc=1"
 								},{	
 									id: 67,
 									dateOfMatch: "02/02/2016",
@@ -133,7 +134,7 @@
 										}
 										
 									],
-									urlImage: "http://static01.mediaite.com/med/wp-content/uploads/2011/05/Picture-39.png"
+									urlImage: "http://www.moroccoworldnews.com/wp-content/themes/goodnews45/framework/scripts/timthumb.php?src=http://www.moroccoworldnews.com/wp-content/uploads/2014/01/Mona-liza.jpg&h=400&w=600&zc=1"
 								},{	
 									id: 68,
 									dateOfMatch: "01/02/2016",
@@ -155,7 +156,7 @@
 										}
 										
 									],
-									urlImage: "http://static01.mediaite.com/med/wp-content/uploads/2011/05/Picture-39.png"
+									urlImage: "http://www.moroccoworldnews.com/wp-content/themes/goodnews45/framework/scripts/timthumb.php?src=http://www.moroccoworldnews.com/wp-content/uploads/2014/01/Mona-liza.jpg&h=400&w=600&zc=1"
 								}
 							]
 						}

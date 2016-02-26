@@ -40,3 +40,34 @@ body{
     float: left;
     padding-top: 100%;
 }
+
+.details{
+	padding: 15px!important;
+	.row{
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+}
+
+.colorWhite{
+	color: white !important;
+}
+
+.imgCollaps{
+	height: 10%;
+	width: 10%;
+}
+
+.collapsHeader{
+	padding: 10px;
+}
+
+.subTitle{
+	color: #999;
+}
+
+.menoActive .active{
+	
+		background-color: white !important;
+	
+}
