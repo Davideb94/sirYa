@@ -187,4 +187,5 @@
 				}
         	} 
         });
+	
 })(window.angular, window._);

@@ -61,7 +61,39 @@
                     controllerAs: 'home',
                     templateUrl: 'app/ui/app/home/home.html'
                 }
+
+            }
+        }).state('app.home.searches', {
+            url: "/searches",
+            views: {
+                '@app': {
+                    controller: 'SearchesCtrl',
+                    controllerAs: 'searches',
+                    templateUrl: 'app/ui/app/searches/searches.html'
+                }
+
+            }
+        }).state('app.home.contacts', {
+            url: "/contacts",
+            views: {
+                '@app': {
+                    controller: 'ContactsCtrl',
+                    controllerAs: 'contacts',
+                    templateUrl: 'app/ui/app/contacts/contacts.html'
+                }
+
+            }
+        }).state('app.home.profile', {
+            url: "/profile",
+            views: {
+                '@app': {
+                    controller: 'ProfileCtrl',
+                    controllerAs: 'profile',
+                    templateUrl: 'app/ui/app/profile/profile.html'
+                }
+
             }
         })
+
     });
 })(window.angular);
