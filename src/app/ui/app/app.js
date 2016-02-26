@@ -11,6 +11,11 @@
 			// if (!Auth.isConnected()) return $state.go('authentication.login');
 			var self = this;
 			// self.user = sirya.ui.common.services.api.returnUser();
-			console.log( rest.getUser() );
+			var user = rest.getUserWithId();
+			var searches = rest.getSearchesFromUserId();
+			console.log( rest.getUserWithId() );
+			console.log( rest.getSearchesFromUserId() );
+			// console.log( hereRest.testScope() );
+
 		});
 })(window.angular);
