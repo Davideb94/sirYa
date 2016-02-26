@@ -1,21 +1,24 @@
 <div id="name" class="row">
-    <div class="col s3">
-        <img src="img.jpg" />
+    <div class="col s12">
+        <img ng-src="{{profile.user.urlImage}}">
     </div>
-    <div class="col s3">
+    <div class="col s12">
         Name Surname
     </div>
 </div>
 <div id="anagraphics" class="row">
-    <div class="col s6">
-        <ul>
-            <li>surname: </li>
-            <li>birthDate: </li>
-            <li>birthPlace: </li>
-        </ul>
+    <div class="col s12">
+        Birthdate: 
+        <span ng-bind="profile.user.birthDate"></span>
+    </div>
+    <div class="col s12">
+        Birthplace: 
+        <span ng-bind="profile.user.birthPlace"></span>
     </div>
 </div>
-<div class="row"><b>Descriptive tags:</b></div>
+<div class="row">
+    <b>Descriptive tags:</b>
+</div>
 <div id="tags" class="row">
     <div class="col s6">
         <div ng-repeat="tag in profile.user.tags">
@@ -29,8 +32,3 @@
 <div class="row hidden">
 
 </div>
-
-<div class="chip">
-    Tag
-    <i class="material-icons">close</i>
-  </div>
