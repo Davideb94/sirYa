@@ -40,3 +40,20 @@ body{
     float: left;
     padding-top: 100%;
 }
+.map{
+	height: 400px;
+	width: 100%;
+
+}
+
+.places{
+	.row{
+		margin-bottom: 0;
+	}
+	.collection-item{
+		padding: 0;
+	}
+	.input-field{
+		margin-top: 0;
+	}
+}

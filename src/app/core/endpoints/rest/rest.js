@@ -11,7 +11,7 @@
             	return {	
             		id: 65,
             		type: "refugee",
-            		name: "Mohammed",
+            		name: "Alwosdie",
             		surname: "Dalef",
             		birthDate: "10/5/2002",
             		birthPlace: "Damascus",
