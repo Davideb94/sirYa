@@ -8,7 +8,6 @@
 	<!-- build:css assets/css/main.css -->
 
 	<link rel="stylesheet" type="text/css" href="../build/assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="../build/assets/css/main.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- endbuild -->
 </head>
@@ -28,7 +27,7 @@
 	</nav>
 
 
-	<div class="">
+	<div class="" >
 		<div class="row">
 
 			<ul class="col s2">
@@ -50,17 +49,17 @@
 				<div class="row">
 					<div class="col s12">
 						<ul class="tabs">
-							<li class="tab col s2"><a href="#test1">Searches</a></li>
-							<li class="tab col s2"><a class="active" href="#test2">New Search</a></li>
-							<li class="tab col s2 disabled"><a href="#test4">Contacts</a></li>
+							<li class="tab col s2"><a ui-sref="app.home.profile">Profile</a></li>
+							<li class="tab col s2"><a ui-sref="app.home.searches">Searches</a></li>
+							<li class="tab col s2 disabled"><a   ui-sref="app.home.contacts">Contacts</a></li>
 						</ul>
 					</div>
-					<div id="test1" class="col s12">Test 1</div>
-					<div id="test2" class="col s12">Test 2</div>
-					<div id="test3" class="col s12">Test 3</div>
-					<div id="test4" class="col s12">Test 4</div>
-				</div>
-        
+				</div>	
+					<br/>
+        						<!-- 	<a class="waves-effect waves-light btn"  ui-sref="app.home.searches">Searches</a>
+        							<a class="waves-effect waves-light btn"  ui-sref="app.home.contacts">Contacts</a>
+        							<a class="waves-effect waves-light btn"  ui-sref="app.home.profile">Profile</a> -->
+
 					<div ui-view></div>
 
 			</div>
@@ -85,6 +84,7 @@
 	<script src="app/core/auth/auth.js"></script>
 	<script src="app/core/endpoints/endpoints.js"></script>
 	<script src="app/core/endpoints/rest/rest.js"></script>
+	<script src="app/core/endpoints/rest/hereRest.js"></script>
 	<script src="app/core/endpoints/socket/socket.js"></script>
 	<script src="app/core/models/models.js"></script>
 
@@ -94,7 +94,10 @@
 
 	<!-- app -->
 	<script src="app/ui/app/app.js"></script>
+	<script src="app/ui/app/contacts/contacts.js"></script>
 	<script src="app/ui/app/home/home.js"></script>
+	<script src="app/ui/app/profile/profile.js"></script>
+	<script src="app/ui/app/searches/searches.js"></script>
 
 	<!-- authentication -->
 	<script src="app/ui/authentication/authentication.js"></script>
@@ -108,13 +111,11 @@
 	<script src="app/ui/common/services/services.js"></script>
 
 	<script src="app/ui/app/home/home.js"></script>
-
-	<script type="text/javascript">
-		
-		$(document).ready(function(){
-			$('ul.tabs').tabs();
-		});
-	</script>
 	<!-- endbuild -->
+<!-- 	<script type="text/javascript">
+		 $(document).ready(function(){
+		    $('ul.tabs').tabs();
+		  });
+	</script> -->
 </body>
 </html>

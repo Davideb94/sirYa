@@ -1,0 +1,19 @@
+        <b>Matched</b>
+        <div class"collection" ng-repeat="search in searches.searches.matched">
+            <span class="collection-item"><span ng-bind="search.search.name"></span>&nbsp;<span ng-bind="search.search.surname"></span></span>
+        </div>
+
+        <b>Pending</b>
+        <div class="collection" ng-repeat="search in searches.searches.pending">
+            <span  class="collection-item"><span ng-bind="search.name"></span>&nbsp;<span ng-bind="search.surname"></span></span>
+
+        </div>
+
+        <hr>
+
+        <ul class="collapsible" data-collapsible="accordion" ng-repeat="match in searches.searches.matched">
+            <li>
+                <div class="collapsible-header" ng-bind="match.matches.name"></div>
+                <div class="collapsible-body">Infos...</div>
+            </li>
+        </ul>

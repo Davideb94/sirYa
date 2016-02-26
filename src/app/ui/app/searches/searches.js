@@ -11,6 +11,12 @@
         self.user = rest.getUserWithId();
         self.searches = rest.getSearchesFromUserId();
 
+        self.matchedSelected = null;
+        
+        self.select = function($index){
+            self.matchedSelected = self.searches.matched[$index];
+        }
+        
         console.log( rest.getUserWithId() );
         console.log( rest.getSearchesFromUserId() );
 	});
