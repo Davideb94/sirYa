@@ -19,7 +19,11 @@
 
         <div class="row">
             <div class="col s6">
-                <span ng-show="searches.matchedSelected"><span ng-bind="searches.matchedSelected.search.name"></span>&nbsp<span ng-bind="searches.matchedSelected.search.surname"></span></span>                
+                <span ng-show="searches.matchedSelected">
+                    <span ng-bind="searches.matchedSelected.search.name"></span>
+                    &nbsp
+                    <span ng-bind="searches.matchedSelected.search.surname"></span>
+                </span>                
                 <ul class="collapsible collapsible-accordion" data-collapsible="accordion" >
                     <li ng-repeat="match in searches.matchedSelected.matches">
                         <div class="collapsible-header">

@@ -43,7 +43,7 @@
             		}
 
             		],
-            		urlImage: "http://static01.mediaite.com/med/wp-content/uploads/2011/05/Picture-39.png"
+            		urlImage: "http://www.moroccoworldnews.com/wp-content/themes/goodnews45/framework/scripts/timthumb.php?src=http://www.moroccoworldnews.com/wp-content/uploads/2014/01/Mona-liza.jpg&h=400&w=600&zc=1"
             	}
 
         	};

@@ -18,3 +18,26 @@ body{
 	font-weight: 200;
 	color: #666;
 }
+.readOnly{
+    color: #34495e;
+}
+
+.tag-panel{
+    padding: 10px !important;
+}
+
+.name{
+    float: left;
+}
+
+.imageContainer{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+    border-radius: 50%;
+    float: left;
+}
