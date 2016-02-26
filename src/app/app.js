@@ -51,6 +51,7 @@
             abstract: true,
             url: "/app",
             controller: 'AppCtrl',
+            controllerAs: 'mainCtrl',
             templateUrl: 'app/ui/app/app.html'
         })
         .state('app.home', {

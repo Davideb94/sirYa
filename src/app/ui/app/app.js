@@ -22,8 +22,8 @@
 
 			console.log( rest.getUserWithId() );
 			console.log( rest.getSearchesFromUserId() );
-
-			console.log( hereRest.testScope() );
+		
+			// console.debug( "MapManager",  MapManager );
 
 		});
 })(window.angular);
