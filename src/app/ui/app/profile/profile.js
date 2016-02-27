@@ -8,8 +8,7 @@
 	.controller('ProfileCtrl', function($scope, rest, MapManager) {
 		var self = this;
         
-        self.user = rest.getUserWithId();
-        self.searches = rest.getSearchesFromUserId();
+        self.user = rest.getUserWithId( 69 );
         self.initMap = function( ){
 
         	MapManager.loadMaps( $(".map") );
