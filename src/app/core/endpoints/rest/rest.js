@@ -11,46 +11,6 @@
             	 
             	var users = { 
 
-            		65: {	
-	            		id: 65,
-	            		type: "refugee",
-	            		name: "Alwosdie",
-	            		surname: "Dalef",
-	            		birthDate: "10/5/1999",
-	            		birthPlace: "Damascus,Syria",
-	            		contacts: {
-	            			telephone: "+34657158008",
-	            			address: "Calle Canalejas 74, Seville, Spain. Ring at 2 izq.",
-	            			email: "allah@notinmyname.org"
-	            		},
-	            		tags: [ "tattoo", "football"],
-	            		places: [
-	            		{
-	            			name:"Maaloula,Syria",
-	            			position:{
-	            				lat: "33.843760",
-	            				lng: "36.549163",
-
-	            			},
-	            			time:{
-	            				start: "15/10/2014",
-	            				end: "1/11/2014"
-	            			}
-	            		},{ name:"Ankara,Turkey",
-	            			position:{
-	            				lat: "39.9966035",
-	            				lng: "32.8177151"
-	            			},
-	            			time:{
-	            				start: "2/6/2015",
-	            				end: "9/12/2015"
-	            			}
-	            		}
-
-	            		],
-	            		urlImage: "http://api.ning.com/files/DtcI2O2Ry7A3sJC*20pqDTg-lpa1rqrJKAM0v1BlbUD1hVeD0mHZ*v1HC3voVW-Y4EDvdgRywpDu4goy4eZtCk4W3MLHTWBt/1082135461.jpeg"
-            		},
-
 	            	69: {
 	            		id: 69,
 	            		type: "refugee",
@@ -109,45 +69,8 @@
 
 	            		],
 	            		urlImage: "http://www.moroccoworldnews.com/wp-content/themes/goodnews45/framework/scripts/timthumb.php?src=http://www.moroccoworldnews.com/wp-content/uploads/2014/01/Mona-liza.jpg&h=400&w=600&zc=1"
-	            	},
-            		145: {
-	            		id: 145,
-	            		type: "refugee",
-	            		name: "Arxhel",
-	            		surname: "Sulejmani",
-	            		birthDate: "17/01/1996",
-	            		birthPlace: "Damascus",
-	            		contacts: {
-	            			telephone: "+339 32555122212",
-	            			address: "Badensche Str. 555 , Berlin, Deutchland.",
-	            			email: "arxhelsulejmani96@life.de"
-	            		},
-	            		tags: [ "football", "cooker"],
-	            		places: [
-	            		{	name:"Damascus,Syria",
-	            			position:{
-	            				lat: "34.140638",
-	            				lng: "36.753715"
-	            			},
-	            			time:{
-	            				start: "15/10/2014",
-	            				end: "1/11/2014"
-	            			}
-	            		},{
-	            			name:"Tirana,Albania",
-	            			position:{
-	            				lat: "41.332524",
-	            				lng: "19.828637"
-	            			},
-	            			time:{
-	            				start: "2/6/2015",
-	            				end: "13.340396"
-	            			}
-	            		}
-
-	            		],
-	            		urlImage: "http://i.huffpost.com/gen/1746871/thumbs/o-ABDULLAH-DEGHAYES-570.jpg?3"
 	            	}
+            		
 	            };
 	            return users[id];
         	};
@@ -319,7 +242,10 @@
 												end: "1/11/2015"
 											}
 										}
-									]
+
+										
+									],
+									urlImage: "http://www.myrecordjournal.com/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=ixC5$x_L_NhwA$mFZAHjYM$daE2N3K4ZzOUsqbU5sYuOzSLkziTsftbKhJM5pcjEWCsjLu883Ygn4B49Lvm9bPe2QeMKQdVeZmXF$9l$4uCZ8QDXhaHEp3rvzXRJFdy0KqPHLoMevcTLo3h8xh70Y6N_U_CryOsw6FTOdKL_jpQ-&CONTENTTYPE=image/jpeg"
 								},
 								matches:[ 
 									{	
@@ -404,6 +330,88 @@
 												],
 										urlImage: "http://www.myrecordjournal.com/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=ixC5$x_L_NhwA$mFZAHjYM$daE2N3K4ZzOUsqbU5sYuOzSLkziTsftbKhJM5pcjEWCsjLu883Ygn4B49Lvm9bPe2QeMKQdVeZmXF$9l$4uCZ8QDXhaHEp3rvzXRJFdy0KqPHLoMevcTLo3h8xh70Y6N_U_CryOsw6FTOdKL_jpQ-&CONTENTTYPE=image/jpeg"
 									},
+								]
+							},
+							{
+								search: {	
+									id: 451,
+									name: "Mehdie",
+									surname: "Hodaei",
+									birthPlace: "Aleppo,Syria",
+									tags: [ "paintress"],
+									places: [
+										{
+											name:"Dresden,Germany",
+											position:{
+												lat: "51.047133",
+												lng: "13.772179"
+											},
+											time:{
+												start: "15/10/2015",
+												end: "1/11/2015"
+											}
+										}
+									]
+								},
+								matches:[ 
+									{	
+										id: 458,
+										dateOfMatch: "07/02/2016",
+										name: "Mehdie",
+										surname: "Hodaei",
+										birthDate: "22/1/1980",
+										birthPlace: "Aleppo,Syria",
+										tags: [ "paintress","actress"],
+										places: [
+											{
+												name:"Dresden,Germany",
+												position:{
+													lat: "51.047133",
+													lng: "13.772179"
+												},
+												time:{
+													start: "15/10/2014",
+													end: "1/11/2014"
+												}
+											},{
+												name:"Leipzig,Germany",
+												position:{
+													lat: "51.285565",
+													lng: "12.345777"
+												},
+												time:{
+													start: "2/6/2015",
+													end: "9/12/2015"
+												}
+											}
+											
+										],
+										urlImage: "https://qph.is.quoracdn.net/main-qimg-58fb3599f8e081c8481bf8e078ef204d?convert_to_webp=true"
+									},
+									{	
+										id: 9265,
+										dateOfMatch: "06/02/2016",
+										name: "Mehdie",
+										surname: "Hodaei",
+										birthDate: "22/1/1985",
+										birthPlace: "Damascus,Syria",
+										tags: [ "fermer"],
+										places: [
+											{
+												name:"Szarvas,Hungary",
+												position:{
+													lat: "46.8508639",
+													lng: "20.5177259"
+												},
+												time:{
+													start: "14/6/2015",
+													end: "1/8/2015"
+												}
+									},
+											
+										],
+										urlImage: "http://assets.vice.com/content-images/contentimage/142099/JHY-8-03-14---A-13.jpg"
+									}
 								]
 							}
 
