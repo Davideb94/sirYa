@@ -75,8 +75,10 @@ body{
 }
 
 .menoActive.active {
-    background-color: white !important;
+    background-color: #EEE !important;
+	color: rgba(0, 0, 0, 0.87) !important;
 }
-.addIcon{
-	transform: rotate(90deg);
+
+.details{
+	padding: 15px !important;
 }
