@@ -23,7 +23,7 @@
 
 		}).controller('SidebarCtrl' ,function( rest ){
 			var self = this;
-			self.user = rest.getUserWithId(65);
+			self.user = rest.getUserWithId(69);
 
 		});
 })(window.angular);
