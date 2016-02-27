@@ -11,19 +11,19 @@
 			'sirya.ui.app.profile',
 			'sirya.ui.app.contacts',
 			'sirya.ui.app.searches',
+			'sirya.ui.app.chat',
 
 		])
 		.controller('AppCtrl', function($scope, Auth, $state, rest, hereRest) {
 			// if (!Auth.isConnected()) return $state.go('authentication.login');
 			var self = this;
 			// self.user = sirya.ui.common.services.api.returnUser();
-			var user = rest.getUserWithId();
-			var searches = rest.getSearchesFromUserId();
 
-			console.log( rest.getUserWithId() );
-			console.log( rest.getSearchesFromUserId() );
-		
 			// console.debug( "MapManager",  MapManager );
+
+		}).controller('SidebarCtrl' ,function( rest ){
+			var self = this;
+			self.user = rest.getUserWithId(65);
 
 		});
 })(window.angular);

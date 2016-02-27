@@ -98,6 +98,16 @@
                 }
 
             }
+        }).state('app.home.chat', {
+            url: "/chat",
+            views: {
+                '@app': {
+                    controller: 'ChatCtrl',
+                    controllerAs: 'chat',
+                    templateUrl: 'app/ui/app/chat/chat.html'
+                }
+
+            }
         })
 
     });
