@@ -19,7 +19,13 @@
 		            <div class="row">
 		                <div class="col s12">
 		                    <div class="collection" ng-repeat="search in searches.searches.pending">
-		                        <div class="collection-item"><span ng-bind="search.name"></span>&nbsp;<span ng-bind="search.surname"></span></div>
+		                        <div class="collection-item">
+									<span ng-bind="search.name"></span>
+									&nbsp;
+									<span ng-bind="search.surname"></span>
+									<span class="badge material-icons">mode_edit</span>
+									<span class="badge deleteIcon material-icons">delete</span>
+								</div>
 		                    </div>
 		                </div>
 		            </div>
