@@ -16,14 +16,14 @@
 	            		type: "refugee",
 	            		name: "Alwosdie",
 	            		surname: "Dalef",
-	            		birthDate: "10/5/2002",
-	            		birthPlace: "Damascus",
+	            		birthDate: "10/5/1999",
+	            		birthPlace: "Damascus,Syria",
 	            		contacts: {
 	            			telephone: "+34657158008",
 	            			address: "Calle Canalejas 74, Seville, Spain. Ring at 2 izq.",
 	            			email: "allah@notinmyname.org"
 	            		},
-	            		tags: [ "tattoo", "woodmaker"],
+	            		tags: [ "tattoo", "football"],
 	            		places: [
 	            		{
 	            			name:"Maaloula,Syria",
@@ -48,22 +48,22 @@
 	            		}
 
 	            		],
-	            		urlImage: "http://www.moroccoworldnews.com/wp-content/themes/goodnews45/framework/scripts/timthumb.php?src=http://www.moroccoworldnews.com/wp-content/uploads/2014/01/Mona-liza.jpg&h=400&w=600&zc=1"
+	            		urlImage: "http://api.ning.com/files/DtcI2O2Ry7A3sJC*20pqDTg-lpa1rqrJKAM0v1BlbUD1hVeD0mHZ*v1HC3voVW-Y4EDvdgRywpDu4goy4eZtCk4W3MLHTWBt/1082135461.jpeg"
             		},
 
 	            	69: {
 	            		id: 69,
 	            		type: "refugee",
-	            		name: "BisanII",
+	            		name: "Alwosdie",
 	            		surname: "Roh",
-	            		birthDate: "14/08/1999",
-	            		birthPlace: "Aleppo",
+	            		birthDate: "14/08/2005",
+	            		birthPlace: "Aleppo,Syria",
 	            		contacts: {
 	            			telephone: "+355 0692713555",
 	            			address: "Via di Novoli 6, Florence, Italy.",
-	            			email: "BisaIIRoh@gmail.it"
+	            			email: "AlwosdieRoh@gmail.it"
 	            		},
-	            		tags: [ "piercing", "paintress","football"],
+	            		tags: [ "green eyes"],
 	            		places: [
 	            		{	
 	            			name:"Aleppo, Syria",
@@ -74,6 +74,26 @@
 	            			time:{
 	            				start: "15/11/2014",
 	            				end: "1/12/2014"
+	            			}
+	            		},{
+	            			name:"Thesaloniki,Greece",
+	            			position:{
+	            				lat:"40.644767",
+	            				long:"22.943280"
+	            			},
+	            			time:{
+	            				start:"20/12/2014",
+	            				end:"2/02/2015"
+	            			}
+	            		},{ 
+	            			name:"Ljubljana,Slovenia",
+	            			position:{
+	            				lat: "46.046495",
+	            				lng: "14.505310"
+	            			},
+	            			time:{
+	            				start: "3/3/2015",
+	            				end: "2/7/2015"
 	            			}
 	            		},{ 
 	            			name:"Florence,Italy",
@@ -88,7 +108,7 @@
 	            		}
 
 	            		],
-	            		urlImage: "http://api.ning.com/files/DtcI2O2Ry7A3sJC*20pqDTg-lpa1rqrJKAM0v1BlbUD1hVeD0mHZ*v1HC3voVW-Y4EDvdgRywpDu4goy4eZtCk4W3MLHTWBt/1082135461.jpeg"
+	            		urlImage: "http://www.moroccoworldnews.com/wp-content/themes/goodnews45/framework/scripts/timthumb.php?src=http://www.moroccoworldnews.com/wp-content/uploads/2014/01/Mona-liza.jpg&h=400&w=600&zc=1"
 	            	},
             		145: {
 	            		id: 145,
@@ -140,8 +160,8 @@
 								search: {	
 									id: 902,
 									name: "Allah",
-									surname: "Abdullah",
-									birthPlace: "Damascus",
+									surname: "Dalef",
+									birthPlace: "Damascus,Syria",
 									tags: [ "woodmaker"],
 									places: [
 										{
@@ -162,9 +182,9 @@
 										id: 66,
 										dateOfMatch: "01/02/2016",
 										name: "Allah",
-										surname: "Abdullah",
+										surname: "Dalef",
 										birthDate: "22/1/2000",
-										birthPlace: "Damascus",
+										birthPlace: "Damascus,Syria",
 										tags: [ "tattoo", "woodmaker"],
 										places: [
 											{
@@ -195,9 +215,9 @@
 										id: 67,
 										dateOfMatch: "02/02/2016",
 										name: "Allah",
-										surname: "Abdullahh",
+										surname: "Dalef",
 										birthDate: "22/1/1999",
-										birthPlace: "Damascus",
+										birthPlace: "Damascus,Syria",
 										tags: [ "tattoo", "woodmaker"],
 										places: [
 											{
@@ -228,9 +248,9 @@
 										id: 68,
 										dateOfMatch: "01/02/2016",
 										name: "Alllah",
-										surname: "Abdullah",
+										surname: "Dalef",
 										birthDate: "22/1/1980",
-										birthPlace: "Damascus",
+										birthPlace: "Damascus,Syria",
 										tags: [ "tattoo", "woodmaker"],
 										places: [
 											{
@@ -257,8 +277,8 @@
 								 {	
 									id: 903,
 									name: "Rafik",
-									surname: "Abdullah",
-									birthPlace: "Damascus",
+									surname: "Dalef",
+									birthPlace: "Damascus,Syria",
 									tags: [ "farmer"],
 									places: [
 										{
@@ -335,7 +355,8 @@
 											
 										],
 										urlImage: "http://www.wazala.org/photos/Syria/Syrian_Man~medium.jpg"
-									},{	
+									},
+									{	
 										id: 9665,
 										dateOfMatch: "02/02/2016",
 										name: "Bisan",
@@ -354,11 +375,12 @@
 													start: "14/6/2015",
 													end: "1/8/2015"
 												}
-											},
+									},
 											
 										],
 										urlImage: "https://vice-images.vice.com/images/articles/crops/2015/10/01/canada-doing-everything-it-can-to-make-it-difficult-for-syrian-refugees-to-come-here-1443719935-crop_mobile.jpg?resize=*:*&output-quality=75"
-									},{	
+									},
+									{	
 										id: 758,
 										dateOfMatch: "02/02/2016",
 										name: "BisanI",
@@ -379,9 +401,9 @@
 												}
 											}
 											
-										],
+												],
 										urlImage: "http://www.myrecordjournal.com/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=ixC5$x_L_NhwA$mFZAHjYM$daE2N3K4ZzOUsqbU5sYuOzSLkziTsftbKhJM5pcjEWCsjLu883Ygn4B49Lvm9bPe2QeMKQdVeZmXF$9l$4uCZ8QDXhaHEp3rvzXRJFdy0KqPHLoMevcTLo3h8xh70Y6N_U_CryOsw6FTOdKL_jpQ-&CONTENTTYPE=image/jpeg"
-									}
+									},
 								]
 							}
 
@@ -405,9 +427,95 @@
 										start: "15/10/2014",
 										end: "1/11/2014"
 									}
+								},
+								{
+									name:"Poznan,Polonia",
+									position:{
+										lat: "52.336456",
+										lng: "16.942991"
+									},
+									time:{
+										start: "20/11/2014",
+										end: "1/12/2014"
+									}
+								}
+
+							]
+						},
+						 {	
+							id: 1023,
+							name: "Moulud",
+							surname: "Shahivari",
+							birthPlace: "Lebanon",
+							tags: [ "architect"],
+							places: [
+								{
+									name:"Zadar,Croatia",
+									position:{
+										lat: "44.091465",
+										lng: " 15.357000"
+									},
+									time:{
+										start: "3/03/2015",
+										end: "7/03/2015"
+									}
+								},
+								{
+									name:"Rijeka,Croatia",
+									position:{
+										lat: "45.330370",
+										lng: "14.476979"
+									},
+									time:{
+										start: "10/03/2014",
+										end: "15/03//2014"
+									}
 								}
 							]
+						},
+						 {	
+							id: 256,
+							name: "Arya",
+							surname: "Miryekta",
+							birthPlace: "Tehran",
+							tags: [ "architect"],
+							places: [
+								{
+									name:"Bari,Italy",
+									position:{
+										lat: "41.039427",
+										lng: "16.718190"
+									},
+									time:{
+										start: "18/09/2014",
+										end: "1/10/2014"
+									}
+								},
+								{
+									name:"Florence,Italy",
+									position:{
+										lat: "43.782911",
+										lng: "11.239249"
+									},
+									time:{
+										start: "13/10/2014",
+										end: "4/11//2014"
+									}
+								},
+								{
+									name:"Turin,Italy",
+									position:{
+										lat: "45.069588",
+										lng: "7.671141"
+									},
+									time:{
+										start: "16/11/2014",
+										end: "7/12//2014"
+									}
 								}
+							]
+						}
+
 						],
 
 					},
