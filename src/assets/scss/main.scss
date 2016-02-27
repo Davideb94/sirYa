@@ -40,15 +40,23 @@ body{
     float: left;
     padding-top: 100%;
 }
+.map{
+	height: 400px;
+	width: 100%;
 
-.details{
-	padding: 15px!important;
-	.row{
-		margin: 0 !important;
-		padding: 0 !important;
-	}
 }
 
+.places{
+	.row{
+		margin-bottom: 0;
+	}
+	.collection-item{
+		padding: 0;
+	}
+	.input-field{
+		margin-top: 0;
+	}
+}
 .colorWhite{
 	color: white !important;
 }

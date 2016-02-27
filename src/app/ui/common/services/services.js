@@ -25,15 +25,20 @@
   	}
 	self.initService();
 
-
-
-  	// self.test = function(){
-  	// 	return	"loooool";
-  	// }
-
   	self.createGroup = function( map_id ){
   		self.markersGroup[ map_id ] = new H.map.Group();
   		self.maps[ map_id ].addObject(group);
+  	}
+
+  	self.loadMaps = function( elements ){
+
+  		var d = new Date();
+  		for( var i = 0; i< elements.length; i++){
+  			var unique_id = d.getTime(); 
+  			elements[i].setAttribute("id", "map_" + unique_id);
+  			self.createMap( unique_id );
+
+  		}
   	}
 
 
@@ -43,10 +48,7 @@
 
 		var defaultLayers = self.platform.createDefaultLayers();
 
-		// self.maps.push( new H.Map( document.getElementById( 'map'+id ), defaultLayers.normal.map ) );
-		self.maps[ map_id ] =  new H.Map( document.getElementById( 'map' + map_id ), defaultLayers.normal.map ) ;
-
-
+		self.maps[ map_id ] =  new H.Map( document.getElementById( 'map_' + map_id ), defaultLayers.normal.map ) ;
 		self.maps[ map_id ].behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents( self.maps[ map_id ] ));
 		self.maps[ map_id ].setCenter( { lat: "33.8508639" , lng: "36.5177259" } , false);
 		self.maps[ map_id ].setZoom( 6, false );
