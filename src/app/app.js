@@ -17,17 +17,19 @@
             var url = $location.url();
             var redirectUrl = "";
             if (url.match("/app")) {
-                if (url.match("/app/home")) {
-                    redirectUrl = "app.home";
+                if (url.match("/app/home/searches")) {
+                    redirectUrl = "app.home.searches";
                 }
             } else if (url.match("/authentication")) {
                 redirectUrl = "authentication.login";
             } else if (url.match("/")) {
-                redirectUrl = "app.home";
+                redirectUrl = "app.home.searches";
+            }else if (url.match("/app/home")) {
+                redirectUrl = "app.home.searches";
             }
 
             if (redirectUrl === "")
-                redirectUrl = "app.home";
+                redirectUrl = "app.home.searches";
 
             console.log("redirect to : " + redirectUrl);
             $injector.invoke(function($state) {
